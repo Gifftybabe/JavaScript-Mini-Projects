@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <title>LOVE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Affection Meter</h2>
+            <img src="img/love bg.png" alt="love letter">
+        </div>
+        <div class="main-body">
+            <div class="input">
+                <input type="text" id="firstName" autocomplete="off" placeholder="Enter your name">
+                <img src="img/love.png" height="85" width="85" alt="love pic">
+                <input type="text" id="lastName" autocomplete="off" placeholder="Enter his/her name">
+            </div>
+            <div class="calculate">
+                <small id="error">error message</small>
+                <div class="calculate_btn">
+                    <button class="btn" onclick="loveCal()">Love Check(%)</button>
+                </div>
+                <div class="answer">
+                    <img src="img/heart.png" alt="">
+                    <h2 class="heading">45</h2>
+                </div>
+                <div class="message">
+                    <p>Igniting love's spark</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>

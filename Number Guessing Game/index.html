@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Guess Number Game</title>
+</head>
+<body>
+    <div class="game-container">
+        <h2 class="heading">Guess The Number</h2>
+        <!--Result and counter-->
+        <div class="head-container">
+            <div class="metric-header">
+                <h3 class="high-heading">highscore</h3>
+                <p class="highscore">0</p>
+            </div>
+            <div class="metric-header">
+                <p class="number"><img src="https://media.tenor.com/cR8ujewMmSgAAAAM/question-lignon.gif" width="120" height="120" alt=""></p>
+
+            </div>
+            <div class="metric-header">
+                <h3 class="trial-heading">Trial</h3>
+                <p class="trial">10</p>
+            </div>
+        </div>
+
+        <!--Input field-->
+        <div class="input-con">
+            <h3>Input number from 1 to 10</h3>
+            <input class="guess" type="number">
+            <button class="play">play</button>
+        </div>
+
+        <!--Reset button-->
+        <div>
+            <button class="reset">reset</button>
+            <button class="continue">Continue</button>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

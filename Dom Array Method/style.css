@@ -1,0 +1,165 @@
+/* * {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px
+}
+
+aside {
+    padding: 10px 20px;
+    width: 250px;
+    border-right: 1px solid #111;
+}
+
+button {
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #111;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+main {
+    flex: 1;
+    padding: 10px 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #111;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    margin: 0 0 20px;
+}
+
+h3 {
+    background-color: #fff;
+    border-bottom: 1px solid #111;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    margin: 20px 0 0;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+} */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+
+    /* transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+aside {
+    /* margin-bottom: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; */
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#main {
+    text-align: left;
+}
+
+
+
+.person {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h3 {
+    background-color: #fff;
+    border-bottom: 1px solid #111;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    margin: 20px 0 0;
+  }
+
+
+#main h2 {
+    text-align: left; /* Align "Person" to the left */
+}
+
+#main h2:after {
+    content: " Wealth"; /* Add " Wealth" after "Person" */
+    text-align: right; /* Align " Wealth" to the right */
+    display: block;
+
+}
+
